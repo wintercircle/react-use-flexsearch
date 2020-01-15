@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import FlexSearch from 'flexsearch'
+import FlexSearch from 'flexsearch/dist/flexsearch.es5'
 
 const InvalidIndexError = new Error(
   'FlexSearch index is required. Check that your index exists and is valid.',
